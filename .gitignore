@@ -1,0 +1,15 @@
+venv/
+*.txt
+*/__pycache__/
+.DS_Store
+.depend
+*.bin
+*.dat
+*.info
+*~
+*.pcm
+*.swp
+*.swo
+*.ipynb_checkpoints
+*.pyc
+*.pdf
