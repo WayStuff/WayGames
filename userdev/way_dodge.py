@@ -54,7 +54,7 @@ RANDO  = (100,  200,  209)
 
 COLORS = [RED, GREEN, BLUE, ORANGE, PURPLE, RANDO]
 # Path to the falling furniture pngs
-FURN_FPATH = '../pics/furniture/'
+FURN_FPATH = '../images/furniture/'
 FURN_FILES = [f for f in listdir(FURN_FPATH) if isfile(join(FURN_FPATH, f))]
 N_PER_VELOCITY = 6
 
@@ -74,7 +74,7 @@ def not_main():
     v_player = 0
     a_player = 0
     local_score = 0
-    player_img = pygame.image.load('../pics/camel.png')
+    player_img = pygame.image.load('../images/camel.png')
     player_img = pygame.transform.scale(player_img, (PLAYER_WIDTH, PLAYER_HEIGHT))
 
     # Start with just 1 falling thing 

@@ -22,7 +22,7 @@ class GemBoard(BaseBoard):
         self.START_X = (self.BOARD_WIDTH  - self.NSQUARE_X * self.BOX_SIZE) / 2
         self.START_Y = (self.BOARD_HEIGHT - self.NSQUARE_Y * self.BOX_SIZE) / 2
         self.N_GEMS = 10 
-        self.GEM_FPATH = '../pics/furniture/'
+        self.GEM_FPATH = '../images/furniture/'
         # Initialize some vars for tracking info throughout the game
         self.gem_locations = []
         self.board_values = [[0 for x in range(self.NSQUARE_Y)] for x in range(self.NSQUARE_X)]
@@ -30,9 +30,9 @@ class GemBoard(BaseBoard):
         self.displayed_boxes_xy = []
         self.right_clicked_boxes_xy = []
         self.gem_images = []
-        # self.gem_img = pygame.image.load('../pics/furniture/gnome.png')
+        # self.gem_img = pygame.image.load('../images/furniture/gnome.png')
         # self.gem_img = pygame.transform.scale(self.gem_img, (int(self.BOX_WIDTH), int(self.BOX_HEIGHT)))
-        self.safety_img = pygame.image.load('../pics/camel.png')
+        self.safety_img = pygame.image.load('../images/camel.png')
         self.safety_img = pygame.transform.scale(self.safety_img, (int(self.BOX_WIDTH), int(self.BOX_HEIGHT)))
         self.init_board()
 
