@@ -3,8 +3,8 @@
 Core and shared functionality  
 
    **Files**   
-`board.py`: Base gameboard that may be useful for other games
-`colors.py`: (R, G, B) color codes useful for customization
+`board.py`: Base gameboard that may be useful for other games  
+`colors.py`: (R, G, B) color codes useful for customization  
 `score_keeper.py`: Helper score keeper class 
 
 2. **userdev/**  
