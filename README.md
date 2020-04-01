@@ -10,11 +10,11 @@ Core and shared functionality
 2. **userdev/**  
 Location for user/team game development
 
-3.  **app/**  
+3. **app/**  
 Games ready for team play/prototyping  
 
    **Files**  
-    `gem_board.py`: Hidden gems board functionality
+    `gem_board.py`: Hidden gems board functionality  
     `play_gem_sweeper.py`: Driver
 
 ## Current Games  
@@ -26,9 +26,9 @@ Hidden Gem Sweeper (i.e. Wayfair-themed Mine Sweeper)
 
    You can protect yourself from mistakes by right clicking a box you suspect to hold a gem; if you right click again, the protection goes away and you're free to click the box again.  
 
-    Win the game by finding all 90 gem-free locations.
+    Win the game by finding all 90 gem-free locations.  
 
-  **How to play**  
+   **How to play**  
     `> python play_gem_sweeper.py`
 
 
